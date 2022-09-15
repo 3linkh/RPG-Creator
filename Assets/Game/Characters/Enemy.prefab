@@ -74,7 +74,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1002324017175947306, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_Speed
-      value: 4
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 1952544790157333890, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_Name
@@ -88,21 +88,25 @@ PrefabInstance:
       propertyPath: health
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 6240248130658671614, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: healthPoints
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2142513
+      value: -21.95
       objectReference: {fileID: 0}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000009536743
+      value: -18.004227
       objectReference: {fileID: 0}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.349818
+      value: 6.81
       objectReference: {fileID: 0}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -188,3 +192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 5
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 3
