@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1002324017175947306, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1497715272205043583, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -91,6 +95,10 @@ PrefabInstance:
     - target: {fileID: 1952544790157333890, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611077527773782426, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: uniqueIdentifier
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 6587137333733342993, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: weaponDamage
@@ -156,18 +164,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1952544790157333890, guid: 050313f219af90d49b516598c6572ed9, type: 3}
   m_PrefabInstance: {fileID: 6448400273725074681}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7305395033632717837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4784376165185108347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8a89ca9d2bd0cb4dbd16473c7e40e19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &1126436176
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -182,3 +178,15 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1.02, z: 0}
+--- !u!114 &7305395033632717837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784376165185108347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a89ca9d2bd0cb4dbd16473c7e40e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
