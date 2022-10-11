@@ -59,9 +59,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+--- !u!4 &2940466879836324067 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481036, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+  m_PrefabInstance: {fileID: 2940466879836542959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2940466879836391575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 417656, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+  m_PrefabInstance: {fileID: 2940466879836542959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2940466879836397793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423694, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
   m_PrefabInstance: {fileID: 2940466879836542959}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5502060201144178584
@@ -92,6 +102,22 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 6587137333733342993, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: f1c0c7126148be9489f288a40731f6a4, type: 2}
+    - target: {fileID: 6587137333733342993, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 2940466879836397793}
+    - target: {fileID: 6587137333733342993, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 2940466879836324067}
+    - target: {fileID: 6587137333733342993, guid: 050313f219af90d49b516598c6572ed9, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 2940466879836397793}
     - target: {fileID: 8548120205707484914, guid: 050313f219af90d49b516598c6572ed9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -152,6 +178,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1952544790157333890, guid: 050313f219af90d49b516598c6572ed9, type: 3}
   m_PrefabInstance: {fileID: 5502060201144178584}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &7170137790314745957
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288128707347169818}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!136 &1026176442082681255
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -195,3 +237,4 @@ MonoBehaviour:
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
+  patrolSpeedFraction: 0.2
